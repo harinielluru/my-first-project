@@ -52,7 +52,7 @@ function checkMatch() {
         
         if (matchedPairs === 8) {
             setTimeout(() => {
-                alert('Congratulations! You won in ${moves} moves!');
+                alert(`Congratulations! You won in ${moves} moves!`);
             }, 500);
         }
     } else {
